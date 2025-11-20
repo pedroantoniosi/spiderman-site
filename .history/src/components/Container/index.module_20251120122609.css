@@ -1,0 +1,9 @@
+@import "../../index.css";
+
+.container {
+    display: grid;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1660px;
+}

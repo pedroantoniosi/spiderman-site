@@ -1,0 +1,7 @@
+@import "../../index.css";
+
+.newsContainer {
+    display: flex;
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+}

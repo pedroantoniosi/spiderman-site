@@ -1,0 +1,13 @@
+@import "../..//index.css";
+
+
+
+.button {
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    background-color: red;
+    color: var(--light);
+    font-size: 1.2rem;
+    font-weight: 500;
+}

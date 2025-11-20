@@ -1,0 +1,10 @@
+@import "../../index.css";
+
+.newsContainer {
+    background-color: red;
+
+    & img {
+        aspect-ratio: 16/9 !important;
+        object-fit: cover;
+    }
+}

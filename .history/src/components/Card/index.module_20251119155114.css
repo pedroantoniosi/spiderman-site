@@ -1,0 +1,20 @@
+@import "../..//index.css";
+
+.card {
+    width: 100%;
+
+
+    & .cardImg {
+        height: 200px;
+        background-color: red;
+        overflow: hidden;
+
+        & img {
+            aspect-ratio: 1/2;
+        }
+    }
+
+    & .cardCaption {
+        padding: 1rem;
+    }
+}

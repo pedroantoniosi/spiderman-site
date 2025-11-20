@@ -1,0 +1,33 @@
+@import "../../index.css";
+
+.aboutContainer {
+    display: grid;
+    min-height: 100svh;
+    background-image: url('../../assets/banner-about.png');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    & .aboutContent {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        & .aboutCaption {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 768px;
+
+            & .aboutTitle {
+                font-size: 2.5rem;
+            }
+
+            & .aboutext {
+                max-width: 600px;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+import styles from "./Index.module.css";
+
+const Home = () => {
+  return (
+    <>
+      <Navbar />
+      <section className={styles.homeContainer}>
+        <Container className={styles.bannerBackground}>
+          <div className={styles.homeCaption}>
+            <h2 className={styles.homeTitle}>
+              Viaje agora mesmo por todo Japão
+            </h2>
+            <p className={styles.homeText}>
+              Encontre os melhores hoteis e lugares para visitar no Japão.
+            </p>
+            <Button className={styles.homeButton} text="Producurar" />
+          </div>
+        </Container>
+      </section>
+      <section>
+        <Template title="Lugares Mais Populares">
+          <div className={styles.card}>
+            <div className={styles.cardCaption}>
+              <div className={styles.cardTitle}></div>
+              <div className="row justify-between gap-1">
+                <div className={styles.cardIco}></div>
+                <div className={styles.cardInfo}></div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.card}>img</div>
+          <div className={styles.card}>img</div>
+          <div className={styles.card}>img</div>
+        </Template>
+      </section>
+      <section>
+        <Template title="Explore Mais">
+          <div className={styles.card}>img</div>
+          <div className={styles.card}>img</div>
+          <div className={styles.card}>img</div>
+          <div className={styles.card}>img</div>
+        </Template>
+      </section>
+    </>
+  );
+};
+
+export default Home;

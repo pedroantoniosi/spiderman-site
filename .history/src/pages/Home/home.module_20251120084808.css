@@ -1,0 +1,42 @@
+@import "../../index.css";
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100svh;
+    background-image: url('../../assets//banner3.png');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    & .homeCaption {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: var(--primaryColor);
+    }
+
+    & .homeTitle {
+        max-width: 700px;
+        font-size: clamp(2rem, 5vw, 4.5rem);
+        text-transform: capitalize;
+    }
+
+    & .homeText {
+        max-width: 600px;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    & .homeButton {
+        background-color: var(--primaryColor);
+    }
+}
+
+& .card {
+    padding: 1rem;
+    background-color: var(--primaryColor);
+    border-radius: 1rem;
+}

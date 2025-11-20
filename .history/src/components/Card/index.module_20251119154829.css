@@ -1,0 +1,12 @@
+@import "../..//index.css";
+
+.card {
+    width: 100%;
+    background-color: red;
+
+    & .cardImg {}
+
+    & .cardCaption {
+        padding: 1rem;
+    }
+}

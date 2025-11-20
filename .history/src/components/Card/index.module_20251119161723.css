@@ -1,0 +1,21 @@
+@import "../..//index.css";
+
+.card {
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    & .cardImg {
+        background-color: red;
+        overflow: hidden;
+
+        & img {
+            aspect-ratio: 3/5;
+        }
+    }
+
+    & .cardCaption {
+        padding: 1rem;
+        background-color: var(--dark);
+    }
+}

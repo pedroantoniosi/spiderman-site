@@ -1,0 +1,14 @@
+@import "../../index.css";
+
+.newsContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+    background-color: red;
+
+    & img {
+        aspect-ratio: 16/9 !important;
+        object-fit: cover;
+    }
+}

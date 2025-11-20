@@ -1,0 +1,14 @@
+@import "../../index.css";
+
+.aboutContainer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100svh;
+    background-image: url('../../assets/banner-about.png');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}

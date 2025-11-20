@@ -1,0 +1,9 @@
+@import "../../index.css";
+
+.newsContainer {
+    background-color: red;
+
+    & img {
+        display: none;
+    }
+}

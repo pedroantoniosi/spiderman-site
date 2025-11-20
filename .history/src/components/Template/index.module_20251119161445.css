@@ -1,0 +1,19 @@
+@import "../../index.css";
+
+.template {
+    display: grid;
+
+    & .templateTitle {
+        color: var(--primaryColor);
+        font-size: clamp(1.5rem, 5vw, 3rem);
+        text-transform: capitalize;
+    }
+
+    & .templateContent {
+        display: grid;
+
+        grid-auto-rows: 700px;
+        gap: 2rem;
+        background-color: aqua;
+    }
+}

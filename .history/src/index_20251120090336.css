@@ -1,0 +1,29 @@
+:root {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --dark: #000;
+  --light: #fff;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Spiderman";
+  src: local("Spiderman Regular"), url("./assets/fonts//IndustryTest.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,29 @@
+@import "../..//index.css";
+
+.card {
+    display: flex;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    & .cardImg {
+        overflow: hidden;
+
+        & img {
+            max-width: 250px;
+            aspect-ratio: 14/16;
+            object-fit: cover;
+            border-radius: 1rem;
+        }
+    }
+
+    & .cardCaption {
+        padding: .5rem;
+        background-color: var(--dark);
+        background-color: red;
+
+        & .cardTitle {
+            font-family: "Spiderman";
+        }
+    }
+}

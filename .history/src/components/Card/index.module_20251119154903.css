@@ -1,0 +1,14 @@
+@import "../..//index.css";
+
+.card {
+    width: 100%;
+
+
+    & .cardImg {
+        height: 200px;
+    }
+
+    & .cardCaption {
+        padding: 1rem;
+    }
+}

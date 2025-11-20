@@ -1,0 +1,19 @@
+@import "../../index.css";
+
+.template {
+    display: grid;
+
+    & .templateTitle {
+        margin-bottom: 1rem;
+        padding: 2rem 0;
+        color: var(--primaryColor);
+        font-size: clamp(1.5rem, 5vw, 2.2rem);
+        text-transform: capitalize;
+    }
+
+    & .templateContent {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../../index.css";
+
+.newsContainer {
+
+
+    & .title {
+        padding: 1rem 0;
+        color: var(--primaryColor);
+        font-size: clamp(1.5rem, 5vw, 3rem);
+        text-transform: capitalize;
+    }
+
+    & .newsContent {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-rows: 1fr;
+        gap: 1rem;
+    }
+}
