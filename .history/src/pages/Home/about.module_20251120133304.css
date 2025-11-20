@@ -48,8 +48,17 @@
 
 @media (max-width: 500px) {
     .aboutContainer {
+        position: relative;
+        display: grid;
+        min-height: 100svh;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        z-index: 1;
+
         &::before {
-            opacity: .0;
+            opacity: .5;
         }
     }
 }

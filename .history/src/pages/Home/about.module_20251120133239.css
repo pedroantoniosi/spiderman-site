@@ -17,6 +17,7 @@
         height: 100%;
         left: 0;
         top: 0;
+        background-color: red;
         z-index: -1;
         background-image: url('../../assets/banner-about.png');
     }
@@ -46,10 +47,4 @@
     }
 }
 
-@media (max-width: 500px) {
-    .aboutContainer {
-        &::before {
-            opacity: .0;
-        }
-    }
-}
+@media (max-width: 500px) {}

@@ -49,7 +49,7 @@
 @media (max-width: 500px) {
     .aboutContainer {
         &::before {
-            opacity: .0;
+            opacity: .3;
         }
     }
 }

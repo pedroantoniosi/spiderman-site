@@ -8,7 +8,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    z-index: 1;
 
     &::before {
         content: ' ';
@@ -17,8 +16,8 @@
         height: 100%;
         left: 0;
         top: 0;
+        background-color: red;
         z-index: -1;
-        background-image: url('../../assets/banner-about.png');
     }
 
     & .aboutContent {
@@ -46,10 +45,4 @@
     }
 }
 
-@media (max-width: 500px) {
-    .aboutContainer {
-        &::before {
-            opacity: .0;
-        }
-    }
-}
+@media (max-width: 500px) {}
